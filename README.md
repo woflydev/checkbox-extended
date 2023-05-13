@@ -1,4 +1,4 @@
-# checkbox-extended
+# Obsidian Checkbox Extended
 
 A CSS snippet for extending [Obsidian](https://obsidian.md/)'s default markdown checkbox functionality.
 

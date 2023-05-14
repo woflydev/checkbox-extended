@@ -4,10 +4,6 @@ Hi! This is a CSS file for Checkbox Extended. It's a CSS snippet that
 adds a bunch of new features to checkboxes in Obsidian because I was getting
 sick of the default checkboxes. It's a bit of a mess, but it works!
 
-This snippet is a mirror of SIRvb's ITS Theme checkbox system. I didn't really like the way
-the original overwrote some other style settings, so I modified it to work
-independently (unless you want to change style settings that is).
-
 Find me on GitHub:
 https://github.com/woflydev/
 
@@ -824,7 +820,9 @@ body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkbox[
   color: rgb(var(--chbx-I));
 }
 .check-color .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task=A], .check-color span:not(.cm-link):not(.cm-inline-code) span[data-task=A], .check-color.check-color ul li[data-task=A].task-list-item.is-checked {
+	/*MAKE THE BORDERS OF THE CHECKBOX ROUND*/
   color: rgb(var(--chbx-P));
+	border-radius: .25rem;
 }
 .check-color .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task=r], .check-color span:not(.cm-link):not(.cm-inline-code) span[data-task=r], .check-color.check-color ul li[data-task=r].task-list-item.is-checked {
   color: rgb(var(--chbx-r));

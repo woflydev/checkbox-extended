@@ -1034,6 +1034,7 @@ body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkbox[
   border-right: 2px solid rgb(var(--chbx-I));
 }
 .check-bg .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task=A], .check-bg li[data-task=A].task-list-item.is-checked {
+	/* answer checkbox */
   border-left: 2px solid rgb(var(--chbx-P));
   background: rgba(var(--chbx-P), 20%);
 }
